@@ -3,7 +3,7 @@ Jenkins2 + Maven3 + JDK8 + Tomcat8
 
 ### 文件说明
 
-* apache-tomcat-8.5.41.zip 为Tomcat + Jenkins压缩包，解压即可使用，Jenkins.war已经放置在Tomcat的webapps目录下
+* apache-tomcat-8.5.41.tar 为Tomcat + Jenkins包，解压即可使用，Jenkins.war已经放置在Tomcat的webapps目录下
 
 * settings.xml 为自定义Maven配置文件，如果需要设置私有仓库地址，修改此文件。此文件会替换掉Maven镜像的默认配置文件
 
