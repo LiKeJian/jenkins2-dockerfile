@@ -7,6 +7,11 @@ Jenkins2 + Maven3 + JDK8 + Tomcat8
 
 * settings.xml 为自定义Maven配置文件，如果需要设置私有仓库地址，修改此文件。此文件会替换掉Maven镜像的默认配置文件
 
+* bat 文件夹只是用来保存一些博客里面需要的代码的，在这里完全没用
+
+    * maven.bat 是maven命令批处理工具
+
+    * git_*.bat 是git命令批处理工具
 
 ### 挂载目录
 
