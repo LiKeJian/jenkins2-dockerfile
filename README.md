@@ -13,6 +13,9 @@ Jenkins2 + Maven3 + JDK8 + Tomcat8
 
     * git_*.bat 是git命令批处理工具
 
+    * git/ 是git_*.bat的合并版本，python编写的，最后打包成为exe文件，具体看bat/README.md
+
+
 ### 挂载目录
 
 * Jenkins配置目录为：```/root/.jenkins```，必须挂载到宿主机的磁盘下，否则重启容器之后Jenkins配置会被初始化
