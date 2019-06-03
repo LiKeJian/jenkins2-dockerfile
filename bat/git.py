@@ -85,7 +85,7 @@ def git_operation(operation, branch, directory):
     elif operator.eq(operation, merge):
         command = 'git -c core.quotepath=false -c log.showSignature=false merge ' + branch
     subprocess.call(command, shell=True)
-    print('finish', operation, directory, '!\n')
+    print('finish', operation, directory, '\n')
 
 
 if __name__ == "__main__":
@@ -111,4 +111,6 @@ if __name__ == "__main__":
     for directory in project_test_branch.keys():
         git_operation(operation, branch, directory)
 
-    
+    end = input('Press entry key to exit . . .')
+
+    print('Bye ~')
